@@ -1,0 +1,30 @@
+/* (color, background color, typography properties, etc)
+We haven’t covered how to use a custom font for the font-family property yet, so for now take a look at CSS Fonts for a list of generic font families to use, and CSS Web Safe Fonts for a list of fonts that are web safe */
+*{
+    background-color:lightgoldenrodyellow;
+    color:royalblue;
+}
+h1{
+    background-color: lightskyblue;
+    font-weight:bold;
+    color:cornflowerblue;
+    font-family:Verdana ,sans-serif;
+    text-align: center;
+    
+}
+h2{
+    background-color:lightskyblue;
+    font-weight: bold;
+    color: deepskyblue;
+    font-family: "Times New Roman",serif;
+    text-align: center;
+}
+body{
+    font-size: 21px;
+    font-family: "Times New Roman",serif;
+    font-weight: bold;
+}
+img{
+    width: 150px;
+    height: auto;
+}
