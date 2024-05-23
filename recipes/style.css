@@ -1,8 +1,12 @@
 /* (color, background color, typography properties, etc)
 We haven’t covered how to use a custom font for the font-family property yet, so for now take a look at CSS Fonts for a list of generic font families to use, and CSS Web Safe Fonts for a list of fonts that are web safe */
 *{
-    background-color:lightgoldenrodyellow;
+    background-color:floralwhite;
     color:royalblue;
+    margin:8px;
+    border:2px;
+    padding:8px
+    font: size 12px;
 }
 h1{
     background-color: lightskyblue;
@@ -10,6 +14,8 @@ h1{
     color:cornflowerblue;
     font-family:Verdana ,sans-serif;
     text-align: center;
+    border-color: powderblue;
+    border-style: solid;
     
 }
 h2{
@@ -18,6 +24,8 @@ h2{
     color: deepskyblue;
     font-family: "Times New Roman",serif;
     text-align: center;
+    border-color: powderblue;
+    border-style: solid;
 }
 body{
     font-size: 21px;
@@ -25,6 +33,7 @@ body{
     font-weight: bold;
 }
 img{
+    display: inline-block;
     width: 150px;
     height: auto;
 }

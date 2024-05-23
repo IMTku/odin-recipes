@@ -1,0 +1,18 @@
+body{
+    color: lightskyblue;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: floralwhite;
+}
+.my-class-1 a {
+    color: inherit;
+  }
+  
+  .my-class-2 a {
+    color: initial;
+  }
+  
+  .my-class-3 a {
+   color: unset;
+  }
+  a{color:rgb(229, 113, 113)}
